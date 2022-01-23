@@ -49,7 +49,6 @@ public class WAITS_Selenium {
 		
 		Search.click();
 		
-		
 	}
 
 	private static void Implicit_wait() {
