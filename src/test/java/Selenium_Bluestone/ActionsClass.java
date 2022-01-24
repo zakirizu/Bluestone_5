@@ -35,9 +35,7 @@ public class ActionsClass {
 		Thread.sleep(5000);
 		
 	//Close browser
-		driver.close();
-		
-		
+		driver.close();	
 		
 		
 	}
@@ -89,8 +87,7 @@ public class ActionsClass {
 		WebDriver driver = new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.get("https://the-internet.herokuapp.com/context_menu");
-		Thread.sleep(5000);
-				
+		Thread.sleep(5000);				
 		WebElement Rectangle_Area = driver.findElement(By.xpath("//div[@id='hot-spot']"));
 		Thread.sleep(5000);		
 		

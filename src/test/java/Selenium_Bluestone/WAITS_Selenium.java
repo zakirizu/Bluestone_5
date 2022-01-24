@@ -19,8 +19,6 @@ public class WAITS_Selenium {
 		Implicit_wait();
 		Explicit_Wait();
 		Fluent_Wait();
-		
-
 	}
 
 	private static void Fluent_Wait() {
