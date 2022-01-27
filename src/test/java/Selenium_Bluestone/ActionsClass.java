@@ -15,8 +15,7 @@ public class ActionsClass {
 		//Double_Click();
 		//Hover_Mouse();
 		//Drag_Drop();
-
-}
+	}
 
 	private static void Drag_Drop() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
