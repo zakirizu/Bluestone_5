@@ -11,8 +11,7 @@ public class Excel_Data {
 		/*
 		FileInputStream file 	= new FileInputStream("C:\\Work\\BlueStone_TestData.xlsx");
 		XSSFWorkbook    wb  	= new XSSFWorkbook(file);
-		XSSFSheet		sheet 	= wb.getSheet("TestData");
-		
+		XSSFSheet		sheet 	= wb.getSheet("TestData");		
 		int rowCount     		= sheet.getLastRowNum()-sheet.getFirstRowNum();
 		
 		for(int i=0; i<rowCount+1;i++)
@@ -26,11 +25,7 @@ public class Excel_Data {
 					String data = row.getCell(j).getStringCellValue();
 					System.out.println(data);
 					
-				}
-				
-				
-				
-				
+				}		
 				
 				
 			}
