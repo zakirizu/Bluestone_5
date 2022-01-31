@@ -22,7 +22,7 @@ public class Actions_Class {
 
 	private static void Right_Click() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		Actions ac = new Actions(driver);
+		Actions ac = new Actions(driver);		
 		driver.manage().window().maximize();
 		driver.get("https://jqueryui.com/");
 		WebElement Droppable_Link = driver.findElement(By.xpath("//a[contains(text(),'Droppable')]"));
@@ -33,10 +33,8 @@ public class Actions_Class {
 	}
 
 	private static void Double_Click() throws InterruptedException {
-		WebDriver driver = new ChromeDriver();
-	
-		Actions ac = new Actions(driver);
-		
+		WebDriver driver = new ChromeDriver();	
+		Actions ac = new Actions(driver);		
 		driver.manage().window().maximize();
 		
 		driver.get("https://jqueryui.com/");
