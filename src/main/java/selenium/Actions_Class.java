@@ -36,7 +36,6 @@ public class Actions_Class {
 		WebDriver driver = new ChromeDriver();	
 		Actions ac = new Actions(driver);		
 		driver.manage().window().maximize();
-		
 		driver.get("https://jqueryui.com/");
 		WebElement Droppable_Link = driver.findElement(By.xpath("//a[contains(text(),'Droppable')]"));
 	//DOUBLE CLICK
