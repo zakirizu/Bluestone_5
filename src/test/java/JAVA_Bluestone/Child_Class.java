@@ -1,6 +1,6 @@
 package JAVA_Bluestone;
 
-public class Child_Class extends Parent_Class, Parent2{
+public class Child_Class extends Parent_Class{
 
 	public static void main(String[] args) {
 		
