@@ -6,6 +6,11 @@ abstract class AbstractBluestone {
 		
 			}
 
+	//New Code
+	public static void method() {
+		
+	}
+	
 	
 	//Implemented Method
 	public static void BankName() {		
