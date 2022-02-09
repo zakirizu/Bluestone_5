@@ -4,11 +4,11 @@ public class Count_Of_Chars_In_String {
 //To find whether we can make a Palendrome with a given word or not 
 	public static void main(String[] args) {
 		String EnterStr = "AABBCCDD";
-		Count_Of_Chars_In_Strin(EnterStr);
+		CheckPalendrome(EnterStr);
 		//EnterStr.charAt(0);
 	}
 	
-public static void Count_Of_Chars_In_Strin(String GivenString) {
+public static void CheckPalendrome(String GivenString) {
 //Creating a Char Array of Charecters 	
 char[] GivenArray = GivenString.toCharArray();	
 
@@ -35,7 +35,7 @@ for(int i=0;i<UniqueArray.length;i++)
 	{
 		UniqueCharsCount++;
 	}
-	System.out.println(" "+UniqueArray[i]+""+count);
+	System.out.println(" "+UniqueArray[i]+" is Repeated "+count +" Times");
 	count = 0;
 }
 
