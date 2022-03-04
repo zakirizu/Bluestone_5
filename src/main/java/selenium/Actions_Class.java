@@ -16,9 +16,7 @@ public class Actions_Class {
 		//Double_Click();  		//DoubleClick
 		//Drag_And_Drop(); 		//DragAndDrop
 		Hover();	       		//MoveToElement
-		
-			
-}
+	}
 
 	private static void Right_Click() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
