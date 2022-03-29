@@ -6,7 +6,7 @@ abstract class AbstractBluestone {
 		
 			}
 
-	//New Code
+	//New Code1
 	public static void method() {
 		
 	}
