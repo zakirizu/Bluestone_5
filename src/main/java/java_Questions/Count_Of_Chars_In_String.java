@@ -3,7 +3,7 @@ import java.util.HashSet;
 public class Count_Of_Chars_In_String {
 //To find whether we can make a Palendrome with a given word or not 
 	public static void main(String[] args) {
-		String EnterStr = "AABBCCDD";
+		String EnterStr = "apple";
 		CheckPalendrome(EnterStr);
 		//EnterStr.charAt(0);
 	}
@@ -15,7 +15,10 @@ char[] GivenArray = GivenString.toCharArray();
 //Creating a HashSet from given word and adding to an array
 HashSet<Character> hs = new HashSet<Character>();
 for(int i=0;i<GivenArray.length;i++)
-{hs.add(GivenArray[i]);}
+{
+	hs.add(GivenArray[i]);
+	
+}
 System.out.println(hs);
 Object[] UniqueArray = hs.toArray();
 
